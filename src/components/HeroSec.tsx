@@ -16,20 +16,22 @@ export function HeroSec() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="  bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-8xl"
+        className="blue-line -mt-8   bg-gradient-to-br from-slate-300 to-slate-500   bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-8xl"
       >
         Master the art of Music
         
-      </motion.h1>
-      <div className=" w-1/2 text-slate-300 bg-amber-30 relative top-18 items-center text-center ">
-        <p >Dive into our comprehensive music course and transform your musical journey today. Whether you are a begineer or looking to refine your skills  , join us to unlock your true potential.</p>
+      </motion.h1>   
+
+      <div className=" md:w-1/2 -mt-20 text-sm md:text-lg lg:text-2xl text-slate-300 bg-amber-30 relative md:top-44 items-center text-center ">
+        <p  >Dive into our comprehensive music course and transform your musical journey today. Whether you are a begineer or looking to refine your skills  , join us to unlock your true potential.</p>
       
       <div className="mt-5">
          <Button className="hover:cursor-pointer"  href={'/courses'}>Explore Course</Button>
       </div>
        
-      </div>    
-      
+      </div> 
     </LampContainer>
   );
 }
+
+

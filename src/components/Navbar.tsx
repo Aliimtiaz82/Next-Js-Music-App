@@ -1,17 +1,4 @@
-// "use client";
-// import React, { useState } from "react";
-// import { HoveredLink, Menu, MenuItem, ProductItem } from "../components/ui/navbar-menu";
-// import { cn } from "@/lib/utils";
 
-// const Navbar = () => {
-//   return (
-//     <div>
-//       NAVBAR
-//     </div>
-//   )
-// }
-
-// export default Navbar
 
 "use client";
 import React, { useState } from "react";

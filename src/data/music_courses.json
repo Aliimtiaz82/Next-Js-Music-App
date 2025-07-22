@@ -1,0 +1,49 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Full Stack Web Development",
+      "slug": "full-stack-web-development",
+      "description": "Learn to build complete web applications using MERN stack.",
+      "price": 199.99,
+      "instructor": "John Doe",
+      "isFeatured": true
+    },
+    {
+      "id": 2,
+      "title": "Frontend Mastery with React",
+      "slug": "frontend-mastery-react",
+      "description": "Master modern frontend development using React, Hooks, and more.",
+      "price": 149.99,
+      "instructor": "Jane Smith",
+      "isFeatured": true
+    },
+    {
+      "id": 3,
+      "title": "Backend Development with Node.js",
+      "slug": "backend-development-nodejs",
+      "description": "Build scalable APIs and backend systems using Node.js and Express.",
+      "price": 129.99,
+      "instructor": "Ali Khan",
+      "isFeatured": true
+    },
+    {
+      "id": 4,
+      "title": "UI/UX Design Fundamentals",
+      "slug": "ui-ux-design-fundamentals",
+      "description": "Understand the principles of design and how to create great user experiences.",
+      "price": 99.99,
+      "instructor": "Sara Ali",
+      "isFeatured": false
+    },
+    {
+      "id": 5,
+      "title": "Laravel for Beginners",
+      "slug": "laravel-for-beginners",
+      "description": "Get started with PHP and Laravel framework for web development.",
+      "price": 89.99,
+      "instructor": "Ahmed Raza",
+      "isFeatured": true
+    }
+  ]
+}
