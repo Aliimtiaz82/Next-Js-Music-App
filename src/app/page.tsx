@@ -5,7 +5,7 @@ import { InfiniteMovingCardsDemo } from "@/components/MovingCard";
 import { cn } from "@/lib/utils";
 import { CardHoverEffectDemo } from "@/components/CardHoverEffect";
 import { WavyBackgroundDemo } from "@/components/Background";
-import { AnimatedTooltip } from "@/components/ui/animated-tooltip";
+import Footer from "@/components/Footer";
 
 
 export default function Home() {
@@ -25,9 +25,9 @@ export default function Home() {
             <CardList></CardList>
           </div>
           <div className="text-center">
-            <button className="bg-[#01BBDC] p-3 rounded hover:text-[#01BBDC] hover:bg-white hover:cursor-pointer ">
+            <a href="/courses" className="bg-[#01BBDC] p-3 rounded hover:text-[#01BBDC] hover:bg-white hover:cursor-pointer ">
               View All Courses
-            </button>
+            </a>
           </div>
         </div>
         {/* Sticky scroll */}
@@ -67,19 +67,20 @@ export default function Home() {
             <CardHoverEffectDemo></CardHoverEffectDemo>
           </div>
           <div className="text-center">
-            <button className="bg-[#01BBDC] p-3 rounded hover:text-[#01BBDC] hover:bg-white hover:cursor-pointer ">
+            <a href="/courses" className="bg-[#01BBDC] p-3 rounded hover:text-[#01BBDC] hover:bg-white hover:cursor-pointer ">
               View All Courses
-            </button>
+            </a>
           </div>
         </div>
 
         {/* wavy background */}
         <div className="w-full ">
-                  <WavyBackgroundDemo>
-                     
-                  </WavyBackgroundDemo>
+          <WavyBackgroundDemo/>
         </div>
-     
+            
+        {/* footer */}
+        <Footer></Footer>
+        
 
       </div>
     </>

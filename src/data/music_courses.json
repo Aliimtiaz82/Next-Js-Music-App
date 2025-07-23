@@ -2,48 +2,53 @@
   "courses": [
     {
       "id": 1,
-      "title": "Full Stack Web Development",
-      "slug": "full-stack-web-development",
-      "description": "Learn to build complete web applications using MERN stack.",
+      "title": "Music Theory Essentials",
+      "slug": "music-theory-essentials",
+      "description": "Learn the fundamentals of music theory, including scales, chords, and harmony.",
       "price": 199.99,
-      "instructor": "John Doe",
-      "isFeatured": true
+      "instructor": "John Legend",
+      "isFeatured": true,
+      "img": "https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/image/rDtN98Qoishumwih/vector-illustration-of-musical-background-with-musical-notes_QJpI1H_thumb.jpg"
     },
     {
       "id": 2,
-      "title": "Frontend Mastery with React",
-      "slug": "frontend-mastery-react",
-      "description": "Master modern frontend development using React, Hooks, and more.",
+      "title": "Mastering Guitar for Beginners",
+      "slug": "mastering-guitar-beginners",
+      "description": "Start your guitar journey with essential chords, strumming techniques, and simple songs.",
       "price": 149.99,
-      "instructor": "Jane Smith",
-      "isFeatured": true
+      "instructor": "Jane Harmony",
+      "isFeatured": true,
+      "img": "https://i.pinimg.com/736x/28/e6/b9/28e6b9803027eca4619a07b8b98fbbe2.jpg"
     },
     {
       "id": 3,
-      "title": "Backend Development with Node.js",
-      "slug": "backend-development-nodejs",
-      "description": "Build scalable APIs and backend systems using Node.js and Express.",
+      "title": "Electronic Music Production",
+      "slug": "electronic-music-production",
+      "description": "Create beats and tracks using FL Studio, Ableton Live, and modern production techniques.",
       "price": 129.99,
-      "instructor": "Ali Khan",
-      "isFeatured": true
+      "instructor": "Ali Beats",
+      "isFeatured": true,
+      "img": "https://thumbs.dreamstime.com/b/music-notes-abstract-20731638.jpg"
     },
     {
       "id": 4,
-      "title": "UI/UX Design Fundamentals",
-      "slug": "ui-ux-design-fundamentals",
-      "description": "Understand the principles of design and how to create great user experiences.",
+      "title": "Piano for Everyone",
+      "slug": "piano-for-everyone",
+      "description": "Learn how to play piano with step-by-step lessons designed for all skill levels.",
       "price": 99.99,
-      "instructor": "Sara Ali",
-      "isFeatured": false
+      "instructor": "Sara Keys",
+      "isFeatured": false,
+      "img": "https://img.freepik.com/premium-photo/musical-notes-are-flying-air-with-dark-background-generative-ai_958192-29618.jpg"
     },
     {
       "id": 5,
-      "title": "Laravel for Beginners",
-      "slug": "laravel-for-beginners",
-      "description": "Get started with PHP and Laravel framework for web development.",
+      "title": "Vocal Training & Singing Techniques",
+      "slug": "vocal-training-singing-techniques",
+      "description": "Improve your vocal range, pitch control, and confidence in singing.",
       "price": 89.99,
-      "instructor": "Ahmed Raza",
-      "isFeatured": true
+      "instructor": "Ahmed Voice",
+      "isFeatured": false,
+      "img": "https://img.freepik.com/premium-photo/image-showcasing-vibrant-colorful-music-notes-musical-notes-displayed-sleek-black-background-musical-notes-transforming-into-abstract-swirling-colors-ai-generated_538213-16684.jpg"
     }
   ]
 }
